@@ -1,0 +1,153 @@
+{
+	"info": {
+		"_postman_id": "6f208090-64e7-42a7-975b-522539605677",
+		"name": "credits_one_movie",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "31007085",
+		"_collection_link": "https://www.postman.com/cryosat-specialist-75614667/workspace/my-workspace/collection/31007085-6f208090-64e7-42a7-975b-522539605677?action=share&source=collection_link&creator=31007085"
+	},
+	"item": [
+		{
+			"name": "https://api.themoviedb.org/3/movie/507089/images",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.themoviedb.org/3/movie/507089/images?api_key=1f39c937c2cfbeeb721a86724edb0283",
+					"protocol": "https",
+					"host": [
+						"api",
+						"themoviedb",
+						"org"
+					],
+					"path": [
+						"3",
+						"movie",
+						"507089",
+						"images"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "1f39c937c2cfbeeb721a86724edb0283"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.themoviedb.org/3/movie/507089/credits?api_key=1f39c937c2cfbeeb721a86724edb0283",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.themoviedb.org/3/movie/507089/credits?api_key=1f39c937c2cfbeeb721a86724edb0283",
+					"protocol": "https",
+					"host": [
+						"api",
+						"themoviedb",
+						"org"
+					],
+					"path": [
+						"3",
+						"movie",
+						"507089",
+						"credits"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "1f39c937c2cfbeeb721a86724edb0283"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.themoviedb.org/3/movie/507089?api_key=1f39c937c2cfbeeb721a86724edb0283",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.themoviedb.org/3/movie/507089?api_key=1f39c937c2cfbeeb721a86724edb0283",
+					"protocol": "https",
+					"host": [
+						"api",
+						"themoviedb",
+						"org"
+					],
+					"path": [
+						"3",
+						"movie",
+						"507089"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "1f39c937c2cfbeeb721a86724edb0283"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.themoviedb.org/3/movie/507089?api_key=1f39c937c2cfbeeb721a86724edb0283 Copy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.themoviedb.org/3/movie/507089?api_key=1f39c937c2cfbeeb721a86724edb0283",
+					"protocol": "https",
+					"host": [
+						"api",
+						"themoviedb",
+						"org"
+					],
+					"path": [
+						"3",
+						"movie",
+						"507089"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "1f39c937c2cfbeeb721a86724edb0283"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.themoviedb.org/3/movie/now_playing?api_key=1f39c937c2cfbeeb721a86724edb0283",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.themoviedb.org/3/movie/now_playing?api_key=1f39c937c2cfbeeb721a86724edb0283",
+					"protocol": "https",
+					"host": [
+						"api",
+						"themoviedb",
+						"org"
+					],
+					"path": [
+						"3",
+						"movie",
+						"now_playing"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "1f39c937c2cfbeeb721a86724edb0283"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
