@@ -1,0 +1,25 @@
+<!doctype html>
+<header>
+  <script>
+    async function getHelloMessage() {
+      try {
+        const name = document.getElementById("name").value;
+        if (!name)
+          return;
+        const response = await fetch(`http://
+localhost:3000/hello/${name}`, {
+          headers: {
+            'Content-Type': 'application/json',
+          },
+        });
+        const helloMessage = await response.json();
+        alert(JSON.stringify(helloMessage));
+      } catch (error) {
+        console.error(error);
+      }
+    }
+  </script>
+</header>
+<input id="name" placeholder="ton nom" />
+<button onclick="getHelloMessage()">Cliquez ici</ button>
+  </body>
